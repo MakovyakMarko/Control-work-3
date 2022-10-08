@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ua-UA">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="author" content="Marko Makovyak">
+        <meta name="keyword" content="html elements">
+        <meta name="description" content="html practice">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="img/icon.jpg">
+        <title>Зображення HTML</title>
+    </head>
+    <body>
+        <h1>Зображення HTML</h1>
+        <p>Якщо змінити розмір вікна браузера зображення на сторінці зміняться.</p>
+        <picture>
+            <source media="(min-width: 800px)" srcset="img/panda3.jpg">
+            <source media="(min-width: 550px)" srcset="img/panda1.jpg">
+            <img src="img/panda2.jpg" alt="panda">
+        </picture>
+        <picture>
+            <source media="(min-width:800px)" srcset="img/panda_developer.jpg">
+            <source media="(min-width:550px)" srcset="img/panda_eating.jpg">
+            <img src="img/panda_great.png" alt="panda eat">
+        </picture>
+    </body>
+</html>

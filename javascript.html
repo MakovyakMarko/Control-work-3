@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ua_UA">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Marko Makovyak">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="JavaScript">
+        <meta name="keywords" content="JavaScript">
+        <title>JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="hea">Header</h1>
+            <p id="par">paragraph</p>
+            <button type="button" onclick="myFunction()">Chenges is waiting</button>
+            <hr>
+            <script>
+                function myFunction(){
+                document.getElementById("hea").innerHTML="JavaScriptHeading";
+                document.getElementById("par").innerHTML="Hello World! by JavaScript";
+                document.getElementById("hea").style.border="1px solid blue";
+                document.getElementById("hea").style.padding="10px"
+                document.getElementById("hea").style.backgroundColor="lightblue";
+                document.getElementById("hea").style.color="blue";
+                document.getElementById("par").style.border="1px solid red";
+                document.getElementById("par").style.padding="10px";
+                document.getElementById("par").style.backgroundColor="tomato";
+                document.getElementById("par").style.color="black";
+            }
+            </script>
+            <img src="img/panda_developer.jpg" alt="panda-devaloper" id="img">
+            <button type="button" onclick="myFunction2(0)">Breackfast time!</button>
+            <button type="button" onclick="myFunction2(1)">Time to WORK!</button>
+            <script>
+                function myFunction2(i){
+                    var so;
+                    if (i==0) {
+                        so="img/panda_eating.jpg"       
+                    } else{
+                        so="img/panda_developer.jpg"
+                    }
+                    document.getElementById("img").src=so;
+                }
+            </script>
+        </div>
+    </body>
+</html>

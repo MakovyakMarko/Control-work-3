@@ -1,0 +1,19 @@
+body{
+    background-color:white;
+    color:black;
+}
+h1,h2,h3,h4,h5,h6{
+    color:blue;
+}
+table{
+    background-color:lightblue;
+    border:none;
+    border-collapse: collapse;
+}
+th,td{
+    border:3px solid blue;
+    color:rgb(0, 0, 0);
+}
+p{
+    color:black;
+}

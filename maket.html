@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ua-UA">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, ibitial-scale=1.0">
+        <meta name="author" content="Marko Makovyak">
+        <meta name="description" content="html layuot">
+        <meta name="keywords" content="layuot">
+        <title>Макет</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            header{
+                background-color: white;
+                text-align: center;
+                font-size: 150%;
+                padding:20px;
+                width:100%;
+            }
+            nav{
+                display:block;
+                height:40px;
+                text-align: center;
+            }
+            span{
+                color:white;
+                background-color: black;
+                color:white;
+                padding:10px;
+                margin:0px;
+            }
+            span:hover{
+                background-color: blue;
+                color:white;
+            }
+            section{
+                float:right;
+                width: 80%;
+                color:white;
+                padding:50px;
+                margin:0px;
+            }
+
+            article{
+                float:right;
+                width:80%;
+                color:black;
+                padding:50px;
+                margin:0px;
+            }
+            aside{
+                width:20%;
+                padding:20px;
+                margin:0px;
+                height:500px;
+            }
+            footer{
+                color:red;
+                width:100%;
+                text-align:center;
+            }
+            @media (max-width:600px){
+                section, article, aside{
+                    width: 100%;
+                    height:auto;
+                } 
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Test Header</h1>
+        </header>
+        <nav>
+            <hr>
+            <span>
+                test nav
+            </span>
+            <span>
+                test
+            </span>
+            <span>
+                test
+            </span>
+            <hr>
+        </nav>
+        <section>
+            <h1>Test section</h1>
+            <p>Test</p>
+            <hr>
+        </section>
+        <article>
+            <h1>Test article</h1>
+            <p>test</p>
+            <hr>
+        </article>
+        <aside>
+            <h1>Test</h1>
+            <p>test aside</p>
+            <hr>
+        </aside>
+        <footer>
+            <hr>
+            <h1>Test footer</h1>
+            <p>test</p>
+        </footer>
+    </body>
+</html>
